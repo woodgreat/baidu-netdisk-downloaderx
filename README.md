@@ -1,5 +1,5 @@
 <p align = "center">
-<img alt="BND" src="https://user-images.githubusercontent.com/873584/61258852-25162d00-a7aa-11e9-94eb-00c14707b49a.png">
+<img alt="BND" width="128" src="https://raw.githubusercontent.com/b3log/baidu-netdisk-downloaderx/master/bnd2/react/public/logo.png">
 <br><br>
 一款图形界面的百度网盘不限速下载器，支持 Windows、Linux 和 Mac
 <br><br>
@@ -49,7 +49,7 @@ BND 分为两个系列，BND1 和 BND2，下面分别进行介绍。
 ### 编译
 
 1. 安装 golang 环境
-2. 项目目录 $GOPATH/src/github.com/b3log/bnd
+2. 项目目录 $GOPATH/src/github.com/b3log/bnd （不支持 Go Modules）
 3. 参考[这里](https://github.com/andlabs/libui)编译 UI 库
 4. 不支持交叉编译，只能在目标平台上编译
 5. Windows 执行 build.bat，Linux/Mac 执行 build.sh
@@ -73,9 +73,8 @@ BND 分为两个系列，BND1 和 BND2，下面分别进行介绍。
 ### 编译
 
 1. 安装 golang、node 环境
-2. 项目目录 $GOPATH/src/github.com/b3log/bnd2
-3. Windows 执行 build.bat，Mac 执行 build.sh
-4. `electron/dist` 目录下运行可执行文件
+2. Windows 执行 build.bat，Mac 执行 build.sh
+3. `electron/dist` 目录下运行可执行文件进行安装
 
 ### 其他
 
@@ -85,10 +84,11 @@ BND 分为两个系列，BND1 和 BND2，下面分别进行介绍。
 
 ## 🏘️ 社区
 
-BND 项目的主要贡献者来自于 B3log 开源社区，欢迎大家对 BND 的开发、测试、反馈、推广等贡献自己的一份力量。[B3log 开源组织欢迎大家加入！](https://hacpai.com/article/1463025124998)
+BND 项目的主要贡献者来自于 B3log 开源社区，欢迎大家对 BND 的开发、测试、反馈、推广等贡献自己的一份力量。
 
 * [讨论区](https://hacpai.com/tag/bnd)
 * [报告问题](https://github.com/b3log/baidu-netdisk-downloaderx/issues/new/choose)
+* [B3log 开源社区欢迎大家加入！](https://hacpai.com/article/1463025124998)
 
 ## 📄 授权
 
@@ -99,6 +99,7 @@ BND 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt) 开源协议。
 * [aria2](https://github.com/aria2/aria2)：超高速的下载引擎
 * [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)：百度网盘客户端 - Go 语言编写
 * [andlabs/ui](https://github.com/andlabs/ui)：跨平台的 Go GUI 库
+* [Gulu](https://github.com/b3log/gulu)：Go 语言常用工具库，这个轱辘还算圆！
 * [React](https://github.com/facebook/react)：使用 JS 构建用户界面库
 * [Electron](https://github.com/electron/electron)：使用 JS、HTML、CSS 的跨平台桌面应用库
 
@@ -106,6 +107,7 @@ BND 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt) 开源协议。
 
 ## 👍 开源项目推荐
 
+* [前端精选问题集，每天仅需 30 秒](https://github.com/b3log/30-seconds-zh_CN)
 * 如果你需要搭建一个个人博客系统，可以考虑使用 [Solo](https://github.com/b3log/solo)
 * 如果你需要搭建一个多用户博客平台，可以考虑使用 [Pipe](https://github.com/b3log/pipe)
 * 如果你需要搭建一个社区平台，可以考虑使用 [Sym](https://github.com/b3log/symphony)
